@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    
+    
+}
+
+
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,#171616, #131312);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+main{
+    background-color: #131312d3;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+main h1{
+    margin-right: 70px;
+}
+
+footer{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c2c2ce3;
+}
