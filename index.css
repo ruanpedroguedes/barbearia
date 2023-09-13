@@ -1,0 +1,91 @@
+
+/* Estilo para telas maiores que 768px */
+@media screen and (min-width: 768px) {
+    /* Suas regras CSS aqui */
+}
+
+/* Estilo para telas menores que 768px */
+@media screen and (max-width: 367px) {
+    /* Suas regras CSS aqui */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    
+    
+}
+
+
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,#171616, #131312);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+
+#secao01{
+    background-color: #131312;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+}
+
+.card-title{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#secao02{
+    background-color: #0c0c0ce3;
+    padding: 60px;
+    font-weight: bold;
+    padding: 80px;
+}
+
+hr{
+    margin-top: 0.5px;
+    color: white;
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c2c2ce3;
+}
+
+.card{
+    padding: 10px;
+}
+
+main{
+    background-color: #0c0c0ce3;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
